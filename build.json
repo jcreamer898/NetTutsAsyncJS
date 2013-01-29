@@ -1,0 +1,25 @@
+{
+    "anvil.cdnjs": {
+        "output": "src/js/vendor",
+        "libs": {
+            "jquery": {
+                "version": "1.9.0",
+                "url": "http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+            },
+            "gmaps.js": {
+                "version": "0.2.30",
+                "url": "http://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.2.30/gmaps.min.js"
+            },
+            "underscore.js": {
+                "version": "1.4.3",
+                "url": "http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"
+            }
+        }
+    },
+    "httpPaths": {
+        "/": "./lib"
+    },
+    "dependencies": [
+        "anvil.template"
+    ]
+}

@@ -1,0 +1,4 @@
+{{> topPage}}
+	<script src="js/vendor/monologue.js"></script>
+	<script src="js/example-gmaps-better.js"></script>
+{{> endPage}}

@@ -1,0 +1,3 @@
+{{> topPage}}
+	<script src="js/example-gmaps-good.js"></script>
+{{> endPage}}
